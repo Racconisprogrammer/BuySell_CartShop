@@ -8,7 +8,7 @@ public class ProductController {
 
     @GetMapping("/")
     public String products() {
-        return "products";
+        return "products.ftlh";
     }
 
 }
